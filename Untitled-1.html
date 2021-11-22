@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario's Quiz!</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/css/Style.css.css">
+    
+</head>
+<body>
+    <!-- start quiz button -->
+    <div class="startButton"><button>START QUIZ</button></div>
+
+    <!-- info -->
+    <div class="infoBox">
+        <div class="infoTitle"><span>Welcome!</span></div>
+        <div class="infoList">
+            <span class="info">Welcome to my code quiz! All questions have a 12 second time limit. If you answer incorrectly, your time is up for that question
+                and the next question will appear. Stick around to the end to record your highscore. Have fun! 
+            </span>
+        </div>
+        <div class="buttons">
+            <button class="quit">EXIT</button>
+            <button class="restart">CONTINUE</button>
+        </div>
+    </div>
+
+    <!-- quiz content -->
+    <div class="quizBox">
+        <header>
+            <div class="title">JavaScript Code Quiz!</div>
+            <div class="timer">
+                <div class="timeLeftText">TIME LEFT</div>
+                <div class="timerSec">12</div>
+            </div>
+        </header>
+        <section>
+            <div class="queText">
+                <!-- div for holding questions -->
+            </div>
+            <div class="optionList">
+                <!-- div for holding options -->
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="totalQue">
+                <!-- div for holding number of questions -->
+            </div>
+            <button class="nextButton">NEXT</button>
+        </footer>
+    </div>
+
+    <!-- results -->
+    <div class="resultBox">
+        <div class="completeText">WELL DONE!</div>
+        <div class="scoreText">
+        </div>
+        <div class="buttons">
+            <button class="restart">REPLAY</button>
+            <button class="quit">QUIT</button>
+            <button class="save">SAVE HIGH SCORE</button>
+        </div>
+    </div>
+
+    <!-- enter name for localStorage and high score box -->
+    <div class="highScoreBox">
+        <header>
+            <div class="title">Scores</div>
+        </header>   
+        <section>
+            <div class="nameText">
+                <!-- insert user name -->
+            </div>
+            <div class="scoreTextFinal">
+                <!-- insert user score -->
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/js/script 3.js"></script>
+    
+</body>
+</html>
